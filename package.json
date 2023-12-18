@@ -1,5 +1,5 @@
 {
-  "name": "hashy",
+  "name": "cryptokey",
   "version": "2.0.0",
   "description": "this is simple lib for string to hash and compare string and hash",
   "main": "dist/index.js",
@@ -29,7 +29,7 @@
     "url": "git+https://github.com/ahadmemon123/my-package.git"
   },
   "keywords": [
-    "bcrypt",
+    "cryptokey",
     "hash",
     "salt",
     "bcrypt",
@@ -38,5 +38,5 @@
   "bugs": {
     "url": "https://github.com/ahadmemon123/my-package.git/issues"
   },
-  "homepage": "https://github.com/ahadmemon123/my-package.git/hashy#readme"
+  "homepage": "https://github.com/ahadmemon123/my-package.git/cryptokey#readme"
 }

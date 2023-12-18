@@ -6,10 +6,10 @@ TODO: add test passing badge like this ->
 [![ci](https://github.com/kelektiv/node.bcrypt.js/actions/workflows/ci.yaml/badge.svg)](https://github.com/kelektiv/node.bcrypt.js/actions/workflows/ci.yaml)
 
 
-[npm-downloads-image]: https://badgen.net/npm/dy/hashy
-[npm-url]: https://npmjs.org/package/hashy
-[github-url]: https://npmjs.org/package/hashy
-[npm-version-image]: https://badgen.net/npm/v/hashy
+[npm-downloads-image]: https://badgen.net/npm/dy/cryptokey
+[npm-url]: https://npmjs.org/package/cryptokey
+[github-url]: https://npmjs.org/package/cryptokey
+[npm-version-image]: https://badgen.net/npm/v/cryptokey
 
 # What is Bcrypt
 
@@ -22,13 +22,13 @@ This library makes it easier to use Bcrypt in NodeJS
 ## Installation
 
 ```bash
-npm i hashy
+npm i cryptokey
 ```
 
 ## ES6 Usage
 
 ```js
-import { stringToHash, verifyHash, validateHash } from "hashy";
+import { stringToHash, verifyHash, validateHash } from "cryptokey";
 
 const hash = await stringToHash("pakistan", 10);
 console.log("hash: ", hash);
@@ -47,7 +47,7 @@ if (result) {
 ## ES5 Usage:
 
 ```js
-var bcrypt = require("hashy");
+var bcrypt = require("cryptokey");
 
 bcrypt.stringToHash("pakistan").then((string) => {
   console.log("hash: ", string);
