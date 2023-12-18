@@ -79,10 +79,3 @@ bcrypt
     }
   });
 ```
-
-<br>
-
-|             |                                                                          |
-| ----------- | ------------------------------------------------------------------------ |
-| Author      | M.Inzamam Malik, [malikasinger@gmail.com](mailto:malikasinger@gmail.com) |
-| Contributor | [Shehzad Iqbal](https://github.com/shehza-d)                             |
